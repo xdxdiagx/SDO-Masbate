@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYouActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/text_view_thank_you"
+            android:layout_width="355dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center_horizontal"
+            android:text="Your feedback will help us improve our services to you, our client."
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.678"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_thank_you_2"
+            android:layout_width="336dp"
+            android:layout_height="150dp"
+            android:gravity="center_horizontal"
+            android:text="Damu'-damo' po' na salamat!"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_thank_you"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_next_1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/custom_button"
+            android:lineSpacingExtra="8dp"
+            android:text="Ok"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_thank_you_2"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

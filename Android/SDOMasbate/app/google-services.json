@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "605831293880",
+    "firebase_url": "https://sample-5a921.firebaseio.com",
+    "project_id": "sample-5a921",
+    "storage_bucket": "sample-5a921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605831293880:android:4a45f345645fcf8b3a3d4d",
+        "android_client_info": {
+          "package_name": "com.example.sdomasbate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605831293880-6msvpp01ffpunchf3q9r9e6jcf0d688l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbJYWTv22SBYyNB5gMiC_VXtN1r40rEo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605831293880-6msvpp01ffpunchf3q9r9e6jcf0d688l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

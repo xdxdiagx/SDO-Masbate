@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LastQuestionaireActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@+id/position"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_back"
+            android:layout_width="331dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="56dp"
+            android:gravity="center_horizontal"
+            android:text="Will you go back to this office? Why?"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/edit_text_back"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:gravity="center_horizontal"
+            android:hint="(Optional)"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_back"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_like"
+            android:layout_width="335dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="What do you like most in the employee who rendered service to you?"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_back"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/edit_text_like"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:gravity="center_horizontal"
+            android:hint="Optional"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_like"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_improve"
+            android:layout_width="335dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="What do you want to improve in the employee who rendered service to you?"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_like"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/edit_text_improve"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="Optional"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_improve"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_view_comment"
+            android:layout_width="327dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Comment/Suggestions:"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_improve"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/edit_text_comment"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="Optional"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_comment"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btn_next_1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/custom_button"
+            android:lineSpacingExtra="8dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_comment"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
